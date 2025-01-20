@@ -1,0 +1,35 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 01-20-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+  <lightning-card title="Lifecycle hook parent card">
+    <div class="slds-var-m-around_medium">
+      <input type="text" onkeyup={changeHandler}/>
+      {name}
+      <template lwc:if={isChildVisible}>
+        <lightning-button 
+          label="Remove child" 
+          title="Remove child" 
+          onclick={handleClick}
+          class="slds-m-left_x-small"></lightning-button>
+      </template>
+      <template lwc:else>
+        <lightning-button 
+          label="Show child" 
+          title="Show child" 
+          onclick={handleClick}
+          class="slds-m-left_x-small"></lightning-button>
+        </template>
+     
+
+
+        <template lwc:if={isChildVisible}>
+          <c-life-cycle-child></c-life-cycle-child>
+        </template>
+      </div>
+    </lightning-card>
+  </template>
