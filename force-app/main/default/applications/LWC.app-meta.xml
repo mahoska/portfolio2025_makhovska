@@ -15,6 +15,10 @@
     <label>LWC</label>
     <navType>Standard</navType>
     <tabs>Fundamentals</tabs>
+    <tabs>Reusable_Component</tabs>
+    <tabs>LifeCycle_Hooks</tabs>
+    <tabs>Components_Communication</tabs>
+    <tabs>Lightning_Message_Service</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_UtilityBar</utilityBar>
 </CustomApplication>
