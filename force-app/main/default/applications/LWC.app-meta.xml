@@ -14,6 +14,7 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>LWC</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>Memory_Game_in_LWC</tabs>
     <tabs>Fundamentals</tabs>
@@ -22,6 +23,8 @@
     <tabs>Components_Communication</tabs>
     <tabs>Lightning_Message_Service</tabs>
     <tabs>Resources_Comp_Context_Notifications</tabs>
+    <tabs>Navigation_Service</tabs>
+    <tabs>Base_Component_LDS</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_UtilityBar</utilityBar>
 </CustomApplication>
