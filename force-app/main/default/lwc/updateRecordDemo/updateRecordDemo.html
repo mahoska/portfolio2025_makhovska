@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-04-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+    <lightning-card title="Update Record Demo">
+      <div class="slds-var-p-around_medium">
+       <lightning-datatable
+                key-field="Id"
+                data={contacts}
+                columns={columns}
+                draft-values={draftValues}
+                onsave={handlerSave}
+                hide-checkbox-column>
+        </lightning-datatable>
+      </div>
+    </lightning-card>
+</template>

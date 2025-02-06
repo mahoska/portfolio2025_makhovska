@@ -1,0 +1,60 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-05-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+     <lightning-card title="Apex Wire To Property Demo">
+        <div class="slds-p-around_medium">
+            <template if:true={accounts.data}>
+                <template for:each={accounts.data} for:item="account">
+                    <div class="slds-box slds-box_xx-small" key={account.Id}>
+                        <p><strong>Name : </strong> {account.Name}</p>
+                        <p><strong>Type : </strong> {account.Type}</p>
+                        <p><strong>Industry : </strong> {account.Industry}</p>
+                    </div>
+                </template>
+               
+            </template>
+        </div>
+    </lightning-card>
+    <lightning-card title="Apex Wire To Function Demo">
+        <div class="slds-p-around_medium">
+            <template if:true={accountList}>
+                <template for:each={accountList} for:item="account">
+                    <div class="slds-box slds-box_xx-small" key={account.Id}>
+                        <p><strong>Name : </strong> {account.Name}</p>
+                        <p><strong>Type : </strong> {account.newType}</p>
+                        <p><strong>Industry : </strong> {account.Industry}</p>
+                    </div>
+                </template>
+               
+            </template>
+        </div>
+    </lightning-card>
+
+    <lightning-card title="Apex Wire Demo with Patam">
+        <div class="slds-p-around_medium">
+          <lightning-combobox 
+            name="type"
+            label="Account Type"
+            value={selectedType}
+            options={typeOptions} 
+            onchange={handleTypeChange}
+          ></lightning-combobox>
+            <template if:true={filteredAccounts.data}>
+                <template for:each={filteredAccounts.data} for:item="account">
+                    <div class="slds-box slds-box_xx-small" key={account.Id}>
+                        <p><strong>Name : </strong> {account.Name}</p>
+                        <p><strong>Type : </strong> {account.Type}</p>
+                        <p><strong>Industry : </strong> {account.Industry}</p>
+                    </div>
+                </template>
+               
+            </template>
+        </div>
+    </lightning-card>
+
+</template>
