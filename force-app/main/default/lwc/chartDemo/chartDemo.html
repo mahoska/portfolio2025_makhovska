@@ -1,0 +1,31 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-09-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+    <lightning-layout multiple-rows>
+      <lightning-layout-item size="6" padding="around-small">
+        <lightning-card title="Total Opportunities">
+          <template lwc:if={pieChartLabels.length}>
+            <c-charts type="doughnut" 
+            chart-heading="Opportunities"
+            chart-data={pieChartData}
+            chart-labels={pieChartLabels}></c-charts>
+          </template>
+        </lightning-card>
+      </lightning-layout-item>
+      <lightning-layout-item size="6" padding="around-small">
+        <lightning-card title="Total Opportunities 2">
+          <template lwc:if={pieChartLabels.length}>
+            <c-charts type="bar" 
+            chart-heading="Opportunities 2"
+            chart-data={pieChartData}
+            chart-labels={pieChartLabels}></c-charts>
+          </template>
+        </lightning-card>
+      </lightning-layout-item>
+    </lightning-layout>
+</template>

@@ -25,6 +25,13 @@
     <tabs>Resources_Comp_Context_Notifications</tabs>
     <tabs>Navigation_Service</tabs>
     <tabs>Base_Component_LDS</tabs>
+    <tabs>Wire_Service</tabs>
+    <tabs>CRUD_uiRecordApi</tabs>
+    <tabs>APEX</tabs>
+    <tabs>Books_App</tabs>
+    <tabs>Map</tabs>
+    <tabs>Filtering_and_Sorting</tabs>
+    <tabs>Charts_in_LWC</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_UtilityBar</utilityBar>
 </CustomApplication>

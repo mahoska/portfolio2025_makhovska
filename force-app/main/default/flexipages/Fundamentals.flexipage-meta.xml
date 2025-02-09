@@ -11,6 +11,24 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>age</name>
+                    <value>7</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>heading</name>
+                    <value>Meta Config in LWC</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>levels</name>
+                    <value>Medium</value>
+                </componentInstanceProperties>
+                <componentName>lwcConfigDemo</componentName>
+                <identifier>c_lwcConfigDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>

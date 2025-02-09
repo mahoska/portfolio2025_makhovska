@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-09-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+    <lightning-card title="Modal Component Demo">
+      <lightning-button variant="brand" label="Show Modal" title="Show Modal" onclick={showModalHandler} class="slds-m-left_x-small"></lightning-button>
+
+      <template lwc:if={isOpen}>
+        <c-modal onclose={closeHandler}>
+          <h1 slot="title">Modal Header</h1>
+          <p>Some info for body</p>
+          <div slot="footer">
+            <button class="slds-button slds-button_neutral" aria-label="Cancel" onclick={closeHandler}>Cancel</button>
+            <button class="slds-button slds-button_brand">Save</button>
+          </div>
+
+        </c-modal>
+      </template>
+    </lightning-card>
+</template>
