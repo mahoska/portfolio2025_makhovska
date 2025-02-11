@@ -32,6 +32,7 @@
     <tabs>Map</tabs>
     <tabs>Filtering_and_Sorting</tabs>
     <tabs>Charts_in_LWC</tabs>
+    <tabs>Custom_Carousel_Using_LWC</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_UtilityBar</utilityBar>
 </CustomApplication>
