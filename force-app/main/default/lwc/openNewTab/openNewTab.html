@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Open New Tab">
+        <div class="slds-p-around_medium">
+            <lightning-button 
+            label="Open Tab using recordId" 
+            onclick={openTabRecordId}></lightning-button>
+
+            <lightning-button 
+            label="Open Tab using url" 
+            onclick={openTabUrl}></lightning-button>
+
+            <lightning-button 
+            label="Open Tab using Page Reference" 
+            onclick={openTabPageRef}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,4 @@
+SELECT Id, Type, Website, Name
+  FROM Account
+  WHERE BillingCountry = 'USA'
+  ORDER BY Name ASC NULLS LAST

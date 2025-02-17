@@ -7,6 +7,30 @@
                 <identifier>c_wireDemoUserDetails</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListCountDemo</componentName>
+                <identifier>c_getRelatedListCountDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListInfoDemo</componentName>
+                <identifier>c_getRelatedListInfoDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListsInfoDemo</componentName>
+                <identifier>c_getRelatedListsInfoDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListRecordsDemo</componentName>
+                <identifier>c_getRelatedListRecordsDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>

@@ -7,6 +7,12 @@
                 <identifier>c_quizApp</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>spreadParent</componentName>
+                <identifier>c_spreadParent</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -29,10 +35,58 @@
                 <identifier>c_lwcConfigDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>treeGridLwc</componentName>
+                <identifier>c_treeGridLwc</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>newConditionalDirectives</componentName>
+                <identifier>c_newConditionalDirectives</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lwcBuilderDemo</componentName>
+                <identifier>c_lwcBuilderDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>inputIcon</componentName>
+                <identifier>c_inputIcon</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningAlertDemo</componentName>
+                <identifier>c_lightningAlertDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningConfirmDemo</componentName>
+                <identifier>c_lightningConfirmDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningPromptDemo</componentName>
+                <identifier>c_lightningPromptDemo</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>refsDemo</componentName>
+                <identifier>c_refsDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

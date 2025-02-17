@@ -199,6 +199,18 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>refreshCustomView</componentName>
+                <identifier>c_refreshCustomView</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>refreshStandardView</componentName>
+                <identifier>c_refreshStandardView</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>heading</name>
                     <value>Meta Config in LWC Record Page</value>

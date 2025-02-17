@@ -1,0 +1,16 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-13-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+    <lightning-card title="getRelatedListCount Demo">
+      <div class="slds-var-p-around_medium">
+        <template if:true={relatedData}>
+          <div>Number of contacts in account related list - {relatedData.count}</div>
+        </template>
+      </div>
+    </lightning-card>
+</template>
