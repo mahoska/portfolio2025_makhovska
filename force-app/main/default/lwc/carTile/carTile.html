@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-20-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+    <div onclick={handleClick}>
+      <div class="content">
+        <img src={car.Picture_URL__c} class="slds-align_absolute-center carImage" alt="car picture" />
+        <div>
+          <p class="title slds-align_absolute-center">{car.Name}</p>
+          <p class="slds-align_absolute-center">
+            <lightning-formatted-number format-style="currency" currency-code="USD" value={car.MSRP__c} class="price"  maximum-fraction-digits="0"></lightning-formatted-number>
+          </p>
+        </div>
+     
+      </div>
+    </div>
+</template>
