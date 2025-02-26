@@ -1,0 +1,9 @@
+{
+  "body": {
+    "message": "An internal server error has occured"
+  },
+  "errorType": "fetchResponse",
+  "ok": false,
+  "status": 500,
+  "statusText": "Server Error"
+}

@@ -3,7 +3,7 @@ import {getRelatedListRecords} from 'lightning/uiRelatedListApi'
 export default class GetRelatedListRecordsDemo extends LightningElement {
   recordList
   @wire(getRelatedListRecords, {
-    parentRecordId:'001JX00000YkjbWYAR',
+    parentRecordId:'001d200000GPxdFAAT',
     relatedListId:'Contacts',
     fields:['Contact.Name', 'Contact.Id'] //optional field
   })listRecordsHandler({data,error}){

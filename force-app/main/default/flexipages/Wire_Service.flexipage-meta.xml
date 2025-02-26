@@ -63,6 +63,12 @@
                 <identifier>c_getPicklistValuesByRecordTypeDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>mySixthCompForJestWire</componentName>
+                <identifier>c_mySixthCompForJestWire</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

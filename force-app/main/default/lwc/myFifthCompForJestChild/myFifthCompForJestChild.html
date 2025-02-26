@@ -1,0 +1,15 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-26-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+  <template lwc:if={userDetail}>
+    <div class="userName">{userDetail.Name}</div>
+  </template>
+  <template lwc:else>
+    <p>No user data available</p>
+  </template>
+</template>

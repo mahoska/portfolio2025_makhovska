@@ -27,6 +27,12 @@
                 <identifier>c_refreshDemoLwc</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>mySeventhCompForJestApexImperativeMethod</componentName>
+                <identifier>c_mySeventhCompForJestApexImperativeMethod</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

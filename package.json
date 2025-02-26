@@ -37,5 +37,17 @@
     "**/{aura,lwc}/**/*.js": [
       "eslint"
     ]
-  }
+  },
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahoska/portfolio2025_makhovska.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahoska/portfolio2025_makhovska/issues"
+  },
+  "homepage": "https://github.com/mahoska/portfolio2025_makhovska#readme"
 }

@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-26-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+  <lightning-card title="Wire service demo">
+    <div class="slds-var-m-around_medium">
+      <template lwc:if={contacts.data}>
+        <template for:each={contacts.data} for:item="contact">
+          <p key={contact.Id}>{contact.Name}</p>
+        </template>
+      </template>
+      <template lwc:if={contacts.error}>
+        <div class="error">{contacts.error}</div>
+      </template>
+    </div>
+  </lightning-card>
+</template>

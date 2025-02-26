@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : Hanna Makhovska
+  @group             : 
+  @last modified on  : 02-25-2025
+  @last modified by  : Hanna Makhovska
+-->
+<template>
+  <lightning-card title="Conditional Rendering" icon-name="custom:custom14">
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="checkbox"
+        label="Show password"
+        onchange={changeHandler}
+      >
+      </lightning-input>
+      <div class="sldx-var-m-around_medium userInfo">
+        <template lwc:if={isVisible}> My password is THF$567 </template>
+        <template lwc:else> My password is ******* </template>
+      </div>
+    </div>
+  </lightning-card>
+</template>
